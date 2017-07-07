@@ -10,9 +10,6 @@ module.exports = {
   name: 'ember-dragula',
 
   included(app) {
-
-    console.log('included');
-
     this._super.included.apply(this, arguments);
 
     // see: https://github.com/ember-cli/ember-cli/issues/3718
